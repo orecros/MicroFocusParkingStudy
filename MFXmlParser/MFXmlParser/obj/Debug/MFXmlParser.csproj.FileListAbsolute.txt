@@ -1,0 +1,6 @@
+C:\Users\Drew\source\repos\MFXmlParser\MFXmlParser\bin\Debug\MFXmlParser.exe
+C:\Users\Drew\source\repos\MFXmlParser\MFXmlParser\bin\Debug\MFXmlParser.pdb
+C:\Users\Drew\source\repos\MFXmlParser\MFXmlParser\obj\Debug\MFXmlParser.csprojAssemblyReference.cache
+C:\Users\Drew\source\repos\MFXmlParser\MFXmlParser\obj\Debug\MFXmlParser.csproj.CoreCompileInputs.cache
+C:\Users\Drew\source\repos\MFXmlParser\MFXmlParser\obj\Debug\MFXmlParser.exe
+C:\Users\Drew\source\repos\MFXmlParser\MFXmlParser\obj\Debug\MFXmlParser.pdb
