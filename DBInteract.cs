@@ -10,7 +10,10 @@ public class dbConnection
   {
     string serverName;
     string databaseName;
-    string strconn = "data source=" + serverName + ";PersistSecurityInfo=true;database=" + databaseName;
+    string userID;
+    string password;
+    string strconn = "data source=" + serverName + ";PersistSecurityInfo=true;database=" + databaseName + ";userid=" + userID
+      + ";password=" + password;
     conn = new SqlConnection(strconn);
   }
   
