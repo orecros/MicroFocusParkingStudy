@@ -21,9 +21,12 @@ CREATE TABLE COORD_POSITION
 	) ENGINE=INNODB;
 
 CREATE TABLE PARKING_SPACE
-    (	Point_id	INT(10) 	NOT NULL AUTO_INCREMENT,
-    	Width		DECIMAL(10,2),
-    	Height		DECIMAL(10.2),
+    (	Point_id			INT(10) 	NOT NULL AUTO_INCREMENT,
+    	Width				DECIMAL(10,2),
+    	Height				DECIMAL(10.2),
+    	24hr_use_freq		INT,
+    	Weekday_use_freq	INT,
+    	Weekend_use_freq	INT,
 		PRIMARY KEY (Point_id),
 		FOREIGN KEY (Point_id)	REFERENCES COORD_POSITION(Point_id)
 	) ENGINE=INNODB;
