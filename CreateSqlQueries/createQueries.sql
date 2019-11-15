@@ -24,8 +24,8 @@ CREATE TABLE VEHICLE
 		y_vehicle			DOUBLE DEFAULT 0,
     	Vehicle_width		DECIMAL(10,2),
     	Vehicle_height		DECIMAL(10.2),
-		Parked_timestamp	DATETIME,
-		Vacated_timestamp	DATETIME,
+		Parked_datetime		DATETIME,
+		Vacated_datetime	DATETIME,
 		Vehicle_type		VARCHAR(20) NOT NULL,
 		PRIMARY KEY (Space_point_id),
 		FOREIGN KEY (Space_point_id)	REFERENCES PARKING_SPACE(Space_point_id)
