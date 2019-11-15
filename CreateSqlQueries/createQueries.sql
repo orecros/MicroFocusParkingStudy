@@ -9,32 +9,24 @@ CREATE TABLE PARKING_LOT
 		Zip_code	CHAR(5)		NOT NULL,
     	PRIMARY KEY (Camera_id));
 
-/* STORES COORDINATE VALUES SEPARATELY*/
-	/*
-	INSERT INTO COORD_POSITION (x_position, y_position) VALUES( , )
-	*/
-CREATE TABLE COORD_POSITION
-	(	Point_id	INT(10) 	NOT NULL AUTO_INCREMENT,
-		x_position	DOUBLE DEFAULT 0,
-		y_position	DOUBLE DEFAULT 0,
-		PRIMARY KEY (Point_id)
-	) ENGINE=INNODB;
-
 CREATE TABLE PARKING_SPACE
-    (	Point_id			INT(10) 	NOT NULL AUTO_INCREMENT,
-    	Width				DECIMAL(10,2),
-    	Height				DECIMAL(10.2),
-    	24hr_use_freq		INT,
-    	Weekday_use_freq	INT,
-    	Weekend_use_freq	INT,
-		PRIMARY KEY (Point_id),
-		FOREIGN KEY (Point_id)	REFERENCES COORD_POSITION(Point_id)
+    (	Space_point_id		INT(10) 	NOT NULL AUTO_INCREMENT,
+    	x_space				DOUBLE DEFAULT 0,
+		y_space				DOUBLE DEFAULT 0,
+		Space_width			DECIMAL(10,2),
+    	Space_height		DECIMAL(10.2),
+		PRIMARY KEY (Space_point_id)
 	) ENGINE=INNODB;
 
 CREATE TABLE VEHICLE
-    (	Point_id	INT(10) NOT NULL AUTO_INCREMENT,
+    (	Space_point_id		INT(10) NOT NULL AUTO_INCREMENT,
+    	x_vehicle			DOUBLE DEFAULT 0,
+		y_vehicle			DOUBLE DEFAULT 0,
+    	Vehicle_width		DECIMAL(10,2),
+    	Vehicle_height		DECIMAL(10.2),
 		Parked_timestamp	TIMESTAMP,
 		Vacated_timestamp	TIMESTAMP,
 		Vehicle_type		VARCHAR(20) NOT NULL,
-		PRIMARY KEY (Point_id),
-		FOREIGN KEY (Point_id)	REFERENCES COORD_POSITION(Point_id));
+		PRIMARY KEY (Space_point_id),
+		FOREIGN KEY (Space_point_id)	REFERENCES PARKING_SPACE(Space_point_id)
+	) ENGINE=INNODB;
