@@ -1,0 +1,6 @@
+C:\Users\Drew\source\repos\IDOLFilePost\IDOLFilePost\bin\Release\IDOLFilePost.exe.config
+C:\Users\Drew\source\repos\IDOLFilePost\IDOLFilePost\bin\Release\IDOLFilePost.exe
+C:\Users\Drew\source\repos\IDOLFilePost\IDOLFilePost\bin\Release\IDOLFilePost.pdb
+C:\Users\Drew\source\repos\IDOLFilePost\IDOLFilePost\obj\Release\IDOLFilePost.csproj.CoreCompileInputs.cache
+C:\Users\Drew\source\repos\IDOLFilePost\IDOLFilePost\obj\Release\IDOLFilePost.exe
+C:\Users\Drew\source\repos\IDOLFilePost\IDOLFilePost\obj\Release\IDOLFilePost.pdb

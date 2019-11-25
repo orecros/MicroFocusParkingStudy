@@ -1,0 +1,13 @@
+http://microfocus.utdallas.edu:14000/action=process&configname=Spot0Classifier&source=C:\Users\ajt150130\Downloads\PKLot\PKLot\PKLot\PUCPR\Cloudy\2012-10-28\2012-10-28_07_16_47.jpg
+http://microfocus.utdallas.edu:14000/action=process&configname=Spot0Classifier&source=C:\Users\ajt150130\Downloads\PKLot\PKLot\PKLot\PUCPR\Cloudy\2012-10-28\2012-10-28_07_06_47.jpg
+http://microfocus.utdallas.edu:14000/action=process&configname=Spot0Classifier&source=C:\Users\ajt150130\Downloads\PKLot\PKLot\PKLot\PUCPR\Cloudy\2012-10-28\2012-10-28_07_11_47.jpg
+http://microfocus.utdallas.edu:14000/action=process&configname=Spot0Classifier&source=C:\Users\ajt150130\Downloads\PKLot\PKLot\PKLot\PUCPR\Cloudy\2012-10-28\2012-10-28_07_16_47.jpg
+http://microfocus.utdallas.edu:14000/action=process&configname=Spot0Classifier&source=C:\Users\ajt150130\Downloads\PKLot\PKLot\PKLot\PUCPR\Cloudy\2012-10-28\2012-10-28_07_06_47.jpg
+http://microfocus.utdallas.edu:14000/action=process&configname=Spot0Classifier&source=C:\Users\ajt150130\Downloads\PKLot\PKLot\PKLot\PUCPR\Cloudy\2012-10-28\2012-10-28_07_11_47.jpg
+http://microfocus.utdallas.edu:14000/action=process&configname=Spot0Classifier&source=C:\Users\ajt150130\Downloads\PKLot\PKLot\PKLot\PUCPR\Cloudy\2012-10-28\2012-10-28_07_16_47.jpg
+<?xml version='1.0' encoding='UTF-8' ?><autnresponse xmlns:autn='http://schemas.autonomy.com/aci/'><action>PROCESS</action><response>SUCCESS</response><responsedata>
+<token>MTAuMTc2LjY3LjMwOjE0MDAwOlBST0NFU1M6MTU3NDcxOTQxMzI2Ny0xNDQ2NDcwNTQ4</token></responsedata></autnresponse>
+
+<?xml version='1.0' encoding='UTF-8' ?><autnresponse xmlns:autn='http://schemas.autonomy.com/aci/'><action>PROCESS</action><response>SUCCESS</response><responsedata>
+<token>MTAuMTc2LjY3LjMwOjE0MDAwOlBST0NFU1M6MTU3NDcxOTQxMzQ5OC0xNDkxMjc0ODE2</token></responsedata></autnresponse>
+
